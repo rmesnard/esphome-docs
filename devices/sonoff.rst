@@ -344,6 +344,19 @@ Teckin SP20 (US)
 See :doc:`/components/sensor/hlw8012` for measuring power.
 Example config: `teckin_sp20_us.yaml <https://github.com/esphome/esphome-docs/blob/current/devices/teckin_sp20_us.yaml>`__
 
+Lustreon Led Stripe Controller (RGB)
+-----------
+
+.. pintable::
+
+    GPIO0, Button (inverted),
+    GPIO12, Red Channel,
+    GPIO04, Green Channel,
+    GPIO14, Blue Channel,
+
+See :doc:`/components/light/rgbw` for controlling the lights together with
+:doc:`/components/output/esp8266_pwm`.
+
 See Also
 --------
 
